@@ -644,12 +644,6 @@ header {
 }
 
 /* --------------------------------------------------- */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0e1117;
-  color: #d1d5db;
-}
 
 .footer {
   padding: 40px 20px;
