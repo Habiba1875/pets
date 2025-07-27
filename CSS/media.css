@@ -47,4 +47,38 @@
   #team .card {
     width: 45%;
   }
+
+  /* ------------------------------------------------ */
+  .contact-form,
+  .contact-info {
+    width: 100%;
+  }
+
+  .contact-info>div {
+    width: 100%;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  /* ------------------------------------------------ */
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+  }
 }
