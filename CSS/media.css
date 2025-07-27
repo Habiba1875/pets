@@ -3,8 +3,20 @@
     width: 90%;
   }
 
+  .title h2 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  /* ----------------------------------------------- */
   .menu-icon {
     display: block;
+  }
+
+  nav {
+    padding: 20px;
   }
 
   .left .nav-list ul {
@@ -43,6 +55,91 @@
     margin: 20px 0;
   }
 
+  /* ----------------------------------------------- */
+  #shop img {
+    width: 100%;
+    height: auto;
+  }
+
+  section .inner-container {
+    border: transparent;
+    width: 100%;
+  }
+
+  #shop .search-box input {
+    display: none;
+  }
+
+  #shop .list ul {
+    justify-content: space-between;
+  }
+
+  #shop a p {
+    display: none;
+  }
+
+  #shop .search h3 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+  /* ------------------------------------------------ */
+  #services .left,
+  #services .right {
+    width: 100%;
+  }
+
+  #services .right img {
+    height: 178px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #services p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+  }
+
+  /* ------------------------------------------------ */
+  #about .left {
+    width: 100%;
+
+  }
+
+  #about .left {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+  #about .right {
+    display: none;
+  }
+
+  /* ------------------------------------------------ */
+  #blog .inner-container {
+    width: 100%;
+  }
+
+  #blog .right {
+    display: none;
+  }
+
+  #blog .left {
+    width: 100%;
+  }
+
+  #blog h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+    letter-spacing: -2%;
+  }
+
   /* ------------------------------------------------ */
   #team .card {
     width: 45%;
@@ -54,8 +151,12 @@
     width: 100%;
   }
 
+  .contact-form {
+    order: 2;
+  }
+
   .contact-info>div {
-    width: 100%;
+    width: 45%;
   }
 
   .contact-form .row {
@@ -64,12 +165,27 @@
 
   /* ------------------------------------------------ */
   .footer-columns {
+    justify-content: start;
+    gap: 30px;
+  }
+
+  .newsletter {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .newsletter-form {
     flex-direction: column;
-    align-items: stretch;
+    width: 100%;
+  }
+
+  .newsletter-content {
+    width: 100%;
+  }
+
+  .newsletter-form button {
+    width: 100%;
+    border-radius: 5px;
   }
 
   .footer-bottom {
@@ -78,7 +194,25 @@
     align-items: flex-start;
   }
 
+  .footer-brand {
+    width: 100%;
+  }
+
+  .footer-brand h3 {
+    margin-bottom: 0;
+  }
+
   .social-icons {
     justify-content: flex-start;
   }
+
+  .footer-section {
+    width: 40%;
+  }
+
+  .social-icons {
+    justify-content: space-around;
+    width: 100%;
+  }
+ 
 }
